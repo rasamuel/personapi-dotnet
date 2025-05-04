@@ -38,17 +38,46 @@ namespace personapi_dotne.Controllers.Mvc
             return View();
         }
 
-        [HttpPost]XmlConfigurationExtensions|
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Estudio estudio)
         {
+            Console.WriteLine("Intentando crear estudio:");
+            Console.WriteLine($"IdProf: {estudio.IdProf}, CcPer: {estudio.CcPer}, Fecha: {estudio.Fecha}, Univer: {estudio.Univer}");
+
+            // Quitar validación de propiedades de navegación que no vienen del formulario
+            ModelState.Remove(nameof(estudio.CcPerNavigation));
+            ModelState.Remove(nameof(estudio.IdProfNavigation));
+
             if (ModelState.IsValid)
             {
+                // Cargar propiedades de navegación manualmente
+                estudio.CcPerNavigation = await _personaRepository.GetPersonaByIdAsync(estudio.CcPer);
+                estudio.IdProfNavigation = await _profesionRepository.GetProfesionByIdAsync(estudio.IdProf);
+
+                Console.WriteLine("Persona encontrada: " + (estudio.CcPerNavigation != null ? "Sí" : "No"));
+                Console.WriteLine("Profesión encontrada: " + (estudio.IdProfNavigation != null ? "Sí" : "No"));
+
                 await _estudioRepository.CreateEstudioAsync(estudio);
+                Console.WriteLine("Estudio creado correctamente.");
                 return RedirectToAction(nameof(Index));
             }
-            return await Create(); // recarga los ViewData
+
+            Console.WriteLine("ModelState inválido:");
+            foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                Console.WriteLine($" - {error.ErrorMessage}");
+            }
+
+            // Recargar SelectList en caso de error
+            ViewData["CcPer"] = new SelectList(await _personaRepository.GetAllPersonasAsync(), "Cc", "Cc", estudio.CcPer);
+            ViewData["IdProf"] = new SelectList(await _profesionRepository.GetAllProfesionesAsync(), "Id", "Nom", estudio.IdProf);
+            return View(estudio);
         }
+
+
+
+
 
         public async Task<IActionResult> Edit(int idProf, int ccPer)
         {
@@ -64,14 +93,39 @@ namespace personapi_dotne.Controllers.Mvc
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int idProf, int ccPer, Estudio estudio)
         {
-            if (idProf != estudio.IdProf || ccPer != estudio.CcPer) return BadRequest();
+            Console.WriteLine("Intentando editar estudio:");
+            Console.WriteLine($"IdProf: {estudio.IdProf}, CcPer: {estudio.CcPer}, Fecha: {estudio.Fecha}, Univer: {estudio.Univer}");
+
+            // Quitar validación de propiedades de navegación que no vienen del formulario
+            ModelState.Remove(nameof(estudio.CcPerNavigation));
+            ModelState.Remove(nameof(estudio.IdProfNavigation));
+
+            if (idProf != estudio.IdProf || ccPer != estudio.CcPer)
+            {
+                Console.WriteLine("IDs en URL no coinciden con el modelo.");
+                return BadRequest();
+            }
 
             if (ModelState.IsValid)
             {
+                estudio.CcPerNavigation = await _personaRepository.GetPersonaByIdAsync(estudio.CcPer);
+                estudio.IdProfNavigation = await _profesionRepository.GetProfesionByIdAsync(estudio.IdProf);
+
+                Console.WriteLine("ModelState válido. Actualizando estudio...");
                 await _estudioRepository.UpdateEstudioAsync(estudio);
                 return RedirectToAction(nameof(Index));
             }
-            return await Edit(idProf, ccPer);
+
+            Console.WriteLine("ModelState inválido:");
+            foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                Console.WriteLine($" - {error.ErrorMessage}");
+            }
+
+            // Recargar SelectList en caso de error
+            ViewData["CcPer"] = new SelectList(await _personaRepository.GetAllPersonasAsync(), "Cc", "Cc", estudio.CcPer);
+            ViewData["IdProf"] = new SelectList(await _profesionRepository.GetAllProfesionesAsync(), "Id", "Nom", estudio.IdProf);
+            return View(estudio);
         }
 
         public async Task<IActionResult> Delete(int idProf, int ccPer)

@@ -1,43 +1,46 @@
 ﻿@model personapi_dotne.Models.Entities.Estudio
 @{
+    ViewData["Title"] = "Crear Estudio";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h4>Crear Estudio</h4>
-<hr />
+<h2 class="mb-4">Crear Estudio</h2>
+
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="IdProf" class="control-label"></label>
+
+            <div class="form-group mb-3">
+                <label asp-for="IdProf" class="form-label"></label>
                 <select asp-for="IdProf" class="form-control" asp-items="ViewBag.IdProf"></select>
+                <span asp-validation-for="IdProf" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CcPer" class="control-label"></label>
+
+            <div class="form-group mb-3">
+                <label asp-for="CcPer" class="form-label"></label>
                 <select asp-for="CcPer" class="form-control" asp-items="ViewBag.CcPer"></select>
+                <span asp-validation-for="CcPer" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Fecha" class="control-label"></label>
-                <input asp-for="Fecha" class="form-control" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Fecha" class="form-label"></label>
+                <input asp-for="Fecha" class="form-control" type="date" />
                 <span asp-validation-for="Fecha" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Univer" class="control-label"></label>
+
+            <div class="form-group mb-4">
+                <label asp-for="Univer" class="form-label"></label>
                 <input asp-for="Univer" class="form-control" />
                 <span asp-validation-for="Univer" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-            </div>
+
+            <button type="submit" class="btn btn-primary">Crear</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
         </form>
     </div>
 </div>
-<div>
-    <a asp-action="Index">Volver a la lista</a>
-</div>
+
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    <partial name="_ValidationScriptsPartial" />
 }

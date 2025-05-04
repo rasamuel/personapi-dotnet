@@ -1,9 +1,27 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+    <div class="text-center">
+        <h1 class="display-4 fw-bold mb-4">Bienvenido a PersonAPI</h1>
+        <p class="lead mb-4">
+            Gestiona fácilmente las entidades del sistema usando ASP.NET Core MVC.
+        </p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-3 mb-3">
+            <a class="btn btn-outline-primary w-100" asp-controller="Persona" asp-action="Index">CRUD Personas</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a class="btn btn-outline-success w-100" asp-controller="Estudio" asp-action="Index">CRUD Estudios</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a class="btn btn-outline-info w-100" asp-controller="Telefono" asp-action="Index">CRUD Teléfonos</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a class="btn btn-outline-secondary w-100" asp-controller="Profesion" asp-action="Index">CRUD Profesiones</a>
+        </div>
+    </div>
 </div>
-    

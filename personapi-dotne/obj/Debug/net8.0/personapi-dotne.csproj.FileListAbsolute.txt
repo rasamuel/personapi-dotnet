@@ -319,4 +319,8 @@ C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0
 C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\Documents\GitHub\personapi-dotnet\personapi-dotne\obj\Debug\net8.0\personapi-dotne.MvcApplicationPartsAssemblyInfo.cs
