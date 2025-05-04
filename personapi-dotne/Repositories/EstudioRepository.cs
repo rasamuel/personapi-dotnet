@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using personapi_dotne.Models.Entities;
+using personapi_dotne.Repositories.Interfaces;
 
 namespace personapi_dotne.Repositories
 {
@@ -14,12 +15,16 @@ namespace personapi_dotne.Repositories
 
         public async Task<IEnumerable<Estudio>> GetAllEstudiosAsync()
         {
-            return await _context.Estudios.Include(e => e.CcPerNavigation).Include(e => e.IdProfNavigation).ToListAsync();
+            return await _context.Estudios
+                .Include(e => e.CcPerNavigation)
+                .Include(e => e.IdProfNavigation)
+                .ToListAsync();
         }
 
-        public async Task<Estudio> GetEstudioByIdAsync(int id)
+        public async Task<Estudio?> GetEstudioByIdsAsync(int idProf, int ccPer)
         {
-            return await _context.Estudios.FindAsync(id);
+            return await _context.Estudios
+                .FirstOrDefaultAsync(e => e.IdProf == idProf && e.CcPer == ccPer);
         }
 
         public async Task CreateEstudioAsync(Estudio estudio)
@@ -34,9 +39,9 @@ namespace personapi_dotne.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteEstudioAsync(int id)
+        public async Task DeleteEstudioAsync(int idProf, int ccPer)
         {
-            var estudio = await _context.Estudios.FindAsync(id);
+            var estudio = await GetEstudioByIdsAsync(idProf, ccPer);
             if (estudio != null)
             {
                 _context.Estudios.Remove(estudio);

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using personapi_dotne.Models.Entities;
+using personapi_dotne.Repositories.Interfaces;
 
 namespace personapi_dotne.Repositories
 {

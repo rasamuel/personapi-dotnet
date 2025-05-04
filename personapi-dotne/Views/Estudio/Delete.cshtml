@@ -1,0 +1,22 @@
+﻿@model personapi_dotne.Models.Entities.Estudio
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>¿Está seguro que desea eliminar este Estudio?</h3>
+<dl class="row">
+    <dt class="col-sm-2">Fecha</dt>
+    <dd class="col-sm-10">@Model.Fecha</dd>
+    <dt class="col-sm-2">Universidad</dt>
+    <dd class="col-sm-10">@Model.Univer</dd>
+    <dt class="col-sm-2">Cédula Persona</dt>
+    <dd class="col-sm-10">@Model.CcPerNavigation?.Cc</dd>
+    <dt class="col-sm-2">ID Profesión</dt>
+    <dd class="col-sm-10">@Model.IdProfNavigation?.Id</dd>
+</dl>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="IdProf" />
+    <input type="hidden" asp-for="CcPer" />
+    <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+    <a asp-action="Index">Cancelar</a>
+</form>

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<personapi_dotne.Models.Entities.Estudio>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Estudios</h2>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Universidad</th>
+            <th>Cédula Persona</th>
+            <th>ID Profesión</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Fecha</td>
+                <td>@item.Univer</td>
+                <td>@item.CcPerNavigation?.Cc</td>
+                <td>@item.IdProfNavigation?.Id</td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { idProf = item.IdProf, ccPer = item.CcPer }) |
+                    @Html.ActionLink("Detalles", "Details", new { idProf = item.IdProf, ccPer = item.CcPer }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { idProf = item.IdProf, ccPer = item.CcPer })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
