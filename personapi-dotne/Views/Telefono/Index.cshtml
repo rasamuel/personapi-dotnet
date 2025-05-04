@@ -1,41 +1,29 @@
-﻿@model IEnumerable<personapi_dotne.Models.Entities.Telefono>
+@model IEnumerable<personapi_dotne.Models.Entities.Telefono>
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
+<h2>Index</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Oper)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DuenioNavigation)
-            </th>
+            <th>Número</th>
+            <th>Operador</th>
+            <th>Dueño</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Oper)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DuenioNavigation.Cc)
-            </td>
+            <td>@Html.DisplayFor(modelItem => item.Num)</td>
+            <td>@Html.DisplayFor(modelItem => item.Oper)</td>
+            <td>@Html.DisplayFor(modelItem => item.DuenioNavigation.Nombre)</td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Num">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Num">Details</a> |
@@ -45,5 +33,3 @@
 }
     </tbody>
 </table>
-</body>
-</html>

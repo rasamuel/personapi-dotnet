@@ -1,51 +1,25 @@
-﻿@model personapi_dotne.Models.Entities.Persona
+@model personapi_dotne.Models.Entities.Persona
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Details Persona";
 }
 
-<!DOCTYPE html>
+<h1>Details</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">Nombre</dt>
+    <dd class="col-sm-10">@Model.Nombre</dd>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
+    <dt class="col-sm-2">Apellido</dt>
+    <dd class="col-sm-10">@Model.Apellido</dd>
 
+    <dt class="col-sm-2">Genero</dt>
+    <dd class="col-sm-10">@Model.Genero</dd>
+
+    <dt class="col-sm-2">Edad</dt>
+    <dd class="col-sm-10">@Model.Edad</dd>
+</dl>
 <div>
-    <h4>Persona</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Apellido)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Apellido)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Genero)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Genero)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Edad)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Edad)
-        </dd>
-    </dl>
+    <a asp-action="Edit" asp-route-id="@Model.Cc" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Cc">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
-</body>
-</html>
