@@ -1,0 +1,773 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\init-db\\init.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:init-db\\init.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\telefono\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\telefono\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\telefono\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\telefono\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\telefono\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\telefono\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\profesion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\profesion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\profesion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\profesion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\telefono\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\telefono\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\mvc\\telefonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\mvc\\telefonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\telefono\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\telefono\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\profesion\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\profesion\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\profesion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\profesion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\profesion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\profesion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\estudio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\estudio\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\estudio\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\estudio\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\estudio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\mvc\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\mvc\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\api\\personaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\api\\personaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\mvc\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\mvc\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\mvc\\profesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\mvc\\profesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\interfaces\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\interfaces\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\api\\estudioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\api\\estudioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\api\\telefonoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\api\\telefonoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\controllers\\api\\profesionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:controllers\\api\\profesionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\telefonorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\telefonorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\interfaces\\itelefonorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\interfaces\\itelefonorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\profesionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\profesionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\repositories\\estudiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:repositories\\estudiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\models\\entities\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:models\\entities\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\models\\entities\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:models\\entities\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\models\\entities\\personadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:models\\entities\\personadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|c:\\users\\asus\\documents\\github\\personapi-dotnet\\personapi-dotnet\\models\\entities\\estudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8466F7-B47E-4243-9062-F829F1681606}|personapi-dotnet.csproj|solutionrelative:models\\entities\\estudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "init.sql",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\init-db\\init.sql",
+              "RelativeDocumentMoniker": "init-db\\init.sql",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\init-db\\init.sql",
+              "RelativeToolTip": "init-db\\init.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T21:42:28.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:38:57.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-05T21:38:29.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-05T18:27:54.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T18:27:51.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Telefono\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Index.cshtml",
+              "RelativeToolTip": "Views\\Telefono\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:40:21.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Telefono\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Telefono\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:39:59.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Telefono\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Create.cshtml",
+              "RelativeToolTip": "Views\\Telefono\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:39:30.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profesion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profesion\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:36:36.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profesion\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Profesion\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:36:31.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Telefono\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Details.cshtml",
+              "RelativeToolTip": "Views\\Telefono\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:22:52.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TelefonoController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\TelefonoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mvc\\TelefonoController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\TelefonoController.cs",
+              "RelativeToolTip": "Controllers\\Mvc\\TelefonoController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:34:39.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Telefono\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Telefono\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:40:09.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profesion\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Details.cshtml",
+              "RelativeToolTip": "Views\\Profesion\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:36:19.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profesion\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Profesion\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:36:14.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profesion\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "RelativeToolTip": "Views\\Profesion\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:36:02.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:23:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Create.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Create.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:24:12.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudio\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Create.cshtml",
+              "RelativeToolTip": "Views\\Estudio\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T21:29:25.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudio\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Estudio\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:59:01.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudio\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Details.cshtml",
+              "RelativeToolTip": "Views\\Estudio\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:59:10.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudio\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Estudio\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T21:20:06.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Estudio\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:59:34.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:18:25.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:18:16.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:52:32.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:56:51.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:27:41.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mvc\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\PersonaController.cs",
+              "RelativeToolTip": "Controllers\\Mvc\\PersonaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:24:39.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PersonaApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\PersonaApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\PersonaApiController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\PersonaApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\PersonaApiController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:24:39.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EstudioController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\EstudioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mvc\\EstudioController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\EstudioController.cs",
+              "RelativeToolTip": "Controllers\\Mvc\\EstudioController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAmwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:24:38.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProfesionController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\ProfesionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mvc\\ProfesionController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Mvc\\ProfesionController.cs",
+              "RelativeToolTip": "Controllers\\Mvc\\ProfesionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:33:04.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\Interfaces\\IPersonaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IPersonaRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\Interfaces\\IPersonaRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IPersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:44:57.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:24:15.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T14:41:08.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EstudioApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\EstudioApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\EstudioApiController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\EstudioApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\EstudioApiController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:30:06.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TelefonoApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\TelefonoApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\TelefonoApiController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\TelefonoApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\TelefonoApiController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:38:04.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProfesionApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\ProfesionApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\ProfesionApiController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Controllers\\Api\\ProfesionApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\ProfesionApiController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwCwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:37:01.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TelefonoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\TelefonoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TelefonoRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\TelefonoRepository.cs",
+              "RelativeToolTip": "Repositories\\TelefonoRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:34:13.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ITelefonoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\Interfaces\\ITelefonoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITelefonoRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\Interfaces\\ITelefonoRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITelefonoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:34:28.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProfesionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\ProfesionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProfesionRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\ProfesionRepository.cs",
+              "RelativeToolTip": "Repositories\\ProfesionRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:33:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EstudioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\EstudioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EstudioRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Repositories\\EstudioRepository.cs",
+              "RelativeToolTip": "Repositories\\EstudioRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:32:16.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Telefono.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Telefono.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Telefono.cs",
+              "RelativeToolTip": "Models\\Entities\\Telefono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:50:21.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Profesion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Profesion.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Profesion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Profesion.cs",
+              "RelativeToolTip": "Models\\Entities\\Profesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:50:07.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PersonaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\PersonaDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\PersonaDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\PersonaDbContext.cs",
+              "RelativeToolTip": "Models\\Entities\\PersonaDbContext.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:49:40.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Persona.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Persona.cs",
+              "RelativeToolTip": "Models\\Entities\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:49:13.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Estudio.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Estudio.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Estudio.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Estudio.cs",
+              "RelativeToolTip": "Models\\Entities\\Estudio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:49:05.15Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
