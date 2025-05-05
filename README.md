@@ -35,13 +35,7 @@ cd personapi-dotnet-entrega
 cd personapi_dotnet
 ```
 
-1. **Compila el proyecto:**
-
-```bash
-dotnet build
-```
-
-2. **Inicia los contenedores con Docker Compose:**
+1. **Inicia los contenedores con Docker Compose:**
 
 ```bash
 docker compose up -d --build
@@ -51,7 +45,7 @@ Esto iniciará:
 - SQL Server en `localhost:1433`
 - La API en `http://localhost:9090`
 
-3. **Abre en el navegador:**
+2. **Abre en el navegador:**
 
 - Interfaz web MVC: `http://localhost:9090`
 - Endpoints API REST: `http://localhost:9090/api/telefono`, `api/estudio`, etc.
