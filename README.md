@@ -12,23 +12,36 @@ Desarrollado por Juan Diego Perez, Juan Miguel Zuluaga y Samuel Ramirez Alvarez
 
 ## ⚙️ Configuración del ambiente local
 
-1. **Clona el repositorio:**
+### ✅ Opción 1: Clonar desde GitHub
 
 ```bash
 git clone https://github.com/rasamuel/personapi-dotnet.git
 # Para acceder a la carpeta del proyecto
-cd personapi_dotne
+cd personapi-dotnet
 # Para acceder a la carpeta del código
-cd personapi_dotne
+cd personapi_dotnet
 ```
 
-2. **Compila el proyecto:**
+### ✅ Opción 2: Descargar como `.zip` desde GitHub
+
+1. Ve al repositorio: [https://github.com/rasamuel/personapi-dotnet](https://github.com/rasamuel/personapi-dotnet)
+2. Haz clic en la pestaña **Releases** o selecciona un **tag estable**.
+3. Descarga el archivo `.zip`, extráelo y entra a la carpeta del proyecto.
+
+```bash
+# Para acceder a la carpeta del proyecto
+cd personapi-dotnet-entrega
+# Para acceder a la carpeta del código
+cd personapi_dotnet
+```
+
+1. **Compila el proyecto:**
 
 ```bash
 dotnet build
 ```
 
-3. **Inicia los contenedores con Docker Compose:**
+2. **Inicia los contenedores con Docker Compose:**
 
 ```bash
 docker compose up -d --build
@@ -38,16 +51,18 @@ Esto iniciará:
 - SQL Server en `localhost:1433`
 - La API en `http://localhost:9090`
 
-4. **Aplica migraciones (si las usas):**
-
-```bash
-dotnet ef database update
-```
-
-5. **Abre en el navegador:**
+3. **Abre en el navegador:**
 
 - Interfaz web MVC: `http://localhost:9090`
 - Endpoints API REST: `http://localhost:9090/api/telefono`, `api/estudio`, etc.
+
+3. **Detener los contenedores:**
+
+Para apagar y limpiar los contenedores:
+
+```bash
+docker compose down
+```
 
 ## 🗂 Estructura del proyecto
 
