@@ -11,7 +11,9 @@ namespace personapi_dotne.Controllers.Api
         private readonly ITelefonoRepository _telefonoRepository;
         private readonly IPersonaRepository _personaRepository;
 
-        public TelefonoApiController(ITelefonoRepository telefonoRepository, IPersonaRepository personaRepository)
+        public TelefonoApiController(
+            ITelefonoRepository telefonoRepository,
+            IPersonaRepository personaRepository)
         {
             _telefonoRepository = telefonoRepository;
             _personaRepository = personaRepository;
@@ -28,26 +30,22 @@ namespace personapi_dotne.Controllers.Api
         public async Task<ActionResult<Telefono>> Get(string num)
         {
             var telefono = await _telefonoRepository.GetTelefonoByIdAsync(num);
-            if (telefono == null) return NotFound();
-            return Ok(telefono);
+            return telefono == null ? NotFound($"No se encontró el teléfono con número {num}") : Ok(telefono);
         }
 
         [HttpPost]
         public async Task<ActionResult> Create(Telefono telefono)
         {
-            // Validación manual si no se usa ModelState
             if (telefono == null || string.IsNullOrWhiteSpace(telefono.Num))
-                return BadRequest("Teléfono inválido");
+                return BadRequest("Número de teléfono inválido");
 
-            // Quitar validación sobre la propiedad de navegación
             ModelState.Remove(nameof(telefono.DuenioNavigation));
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            // Cargar la navegación
             var persona = await _personaRepository.GetPersonaByIdAsync(telefono.Duenio);
             if (persona == null)
-                return NotFound("Persona no encontrada");
+                return NotFound("La persona asociada al teléfono no existe");
 
             telefono.DuenioNavigation = persona;
 
@@ -58,8 +56,8 @@ namespace personapi_dotne.Controllers.Api
         [HttpPut("{num}")]
         public async Task<IActionResult> Update(string num, Telefono telefono)
         {
-            if (num != telefono.Num)
-                return BadRequest("Número de teléfono no coincide");
+            if (telefono == null || num != telefono.Num)
+                return BadRequest("Número en la ruta no coincide con el del modelo");
 
             ModelState.Remove(nameof(telefono.DuenioNavigation));
             if (!ModelState.IsValid)
@@ -67,17 +65,25 @@ namespace personapi_dotne.Controllers.Api
 
             var persona = await _personaRepository.GetPersonaByIdAsync(telefono.Duenio);
             if (persona == null)
-                return NotFound("Persona no encontrada");
+                return NotFound("La persona asociada al teléfono no existe");
+
+            var existingTelefono = await _telefonoRepository.GetTelefonoByIdAsync(num);
+            if (existingTelefono == null)
+                return NotFound($"El teléfono {num} no existe");
 
             telefono.DuenioNavigation = persona;
-
             await _telefonoRepository.UpdateTelefonoAsync(telefono);
+
             return NoContent();
         }
 
         [HttpDelete("{num}")]
         public async Task<IActionResult> Delete(string num)
         {
+            var telefono = await _telefonoRepository.GetTelefonoByIdAsync(num);
+            if (telefono == null)
+                return NotFound($"No se encontró el teléfono con número {num}");
+
             await _telefonoRepository.DeleteTelefonoAsync(num);
             return NoContent();
         }

@@ -1,28 +1,44 @@
 @model IEnumerable<personapi_dotne.Models.Entities.Profesion>
+
 @{
-    ViewData["Title"] = "Profesion List";
+    ViewData["Title"] = "Gestión de Profesiones";
 }
-<h2>Profesiones</h2>
-<p><a asp-action="Create" class="btn btn-success">Create New</a></p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model) {
-        <tr>
-            <td>@item.Nom</td>
-            <td>@item.Des</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold text-primary">Listado de Profesiones</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle me-1"></i> Nueva Profesión
+        </a>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover shadow-sm">
+        <thead class="table-primary text-center">
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th style="width: 180px;">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="align-middle">
+                    <td>@item.Nom</td>
+                    <td>@item.Des</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary me-1">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info me-1">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

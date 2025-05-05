@@ -4,24 +4,32 @@
 
 <div class="container py-5">
     <div class="text-center">
-        <h1 class="display-4 fw-bold mb-4">Bienvenido a PersonAPI</h1>
-        <p class="lead mb-4">
-            Gestiona fácilmente las entidades del sistema usando ASP.NET Core MVC.
-        </p>
+        <h1 class="display-4 fw-bold text-primary mb-3">
+            <i class="bi bi-people-fill me-2"></i>Bienvenido a PersonAPI
+        </h1>
+        <p class="lead text-muted">Gestiona fácilmente las entidades del sistema usando ASP.NET Core MVC.</p>
     </div>
 
-    <div class="row mt-5">
-        <div class="col-md-3 mb-3">
-            <a class="btn btn-outline-primary w-100" asp-controller="Persona" asp-action="Index">CRUD Personas</a>
+    <div class="row mt-5 g-4">
+        <div class="col-sm-6 col-md-3">
+            <a class="btn btn-outline-primary w-100 py-3" asp-controller="Persona" asp-action="Index">
+                <i class="bi bi-person-circle me-2"></i>CRUD Personas
+            </a>
         </div>
-        <div class="col-md-3 mb-3">
-            <a class="btn btn-outline-success w-100" asp-controller="Estudio" asp-action="Index">CRUD Estudios</a>
+        <div class="col-sm-6 col-md-3">
+            <a class="btn btn-outline-success w-100 py-3" asp-controller="Estudio" asp-action="Index">
+                <i class="bi bi-journal-code me-2"></i>CRUD Estudios
+            </a>
         </div>
-        <div class="col-md-3 mb-3">
-            <a class="btn btn-outline-info w-100" asp-controller="Telefono" asp-action="Index">CRUD Teléfonos</a>
+        <div class="col-sm-6 col-md-3">
+            <a class="btn btn-outline-info w-100 py-3" asp-controller="Telefono" asp-action="Index">
+                <i class="bi bi-telephone-fill me-2"></i>CRUD Teléfonos
+            </a>
         </div>
-        <div class="col-md-3 mb-3">
-            <a class="btn btn-outline-secondary w-100" asp-controller="Profesion" asp-action="Index">CRUD Profesiones</a>
+        <div class="col-sm-6 col-md-3">
+            <a class="btn btn-outline-secondary w-100 py-3" asp-controller="Profesion" asp-action="Index">
+                <i class="bi bi-briefcase-fill me-2"></i>CRUD Profesiones
+            </a>
         </div>
     </div>
 </div>

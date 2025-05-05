@@ -26,13 +26,15 @@ namespace personapi_dotne.Controllers.Api
         public async Task<ActionResult<Persona>> Get(int cc)
         {
             var persona = await _personaRepository.GetPersonaByIdAsync(cc);
-            if (persona == null) return NotFound();
-            return Ok(persona);
+            return persona == null ? NotFound() : Ok(persona);
         }
 
         [HttpPost]
         public async Task<ActionResult> Create(Persona persona)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             await _personaRepository.CreatePersonaAsync(persona);
             return CreatedAtAction(nameof(Get), new { cc = persona.Cc }, persona);
         }
@@ -40,7 +42,16 @@ namespace personapi_dotne.Controllers.Api
         [HttpPut("{cc}")]
         public async Task<IActionResult> Update(int cc, Persona persona)
         {
-            if (cc != persona.Cc) return BadRequest();
+            if (cc != persona.Cc)
+                return BadRequest("El parámetro de ruta no coincide con el modelo.");
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var existing = await _personaRepository.GetPersonaByIdAsync(cc);
+            if (existing == null)
+                return NotFound();
+
             await _personaRepository.UpdatePersonaAsync(persona);
             return NoContent();
         }
@@ -48,6 +59,10 @@ namespace personapi_dotne.Controllers.Api
         [HttpDelete("{cc}")]
         public async Task<IActionResult> Delete(int cc)
         {
+            var existing = await _personaRepository.GetPersonaByIdAsync(cc);
+            if (existing == null)
+                return NotFound();
+
             await _personaRepository.DeletePersonaAsync(cc);
             return NoContent();
         }

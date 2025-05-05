@@ -1,25 +1,28 @@
 @model personapi_dotne.Models.Entities.Persona
 
 @{
-    ViewData["Title"] = "Details Persona";
+    ViewData["Title"] = "Detalle de Persona";
 }
 
-<h1>Details</h1>
-<hr />
-<dl class="row">
-    <dt class="col-sm-2">Nombre</dt>
-    <dd class="col-sm-10">@Model.Nombre</dd>
+<h1 class="mb-4 text-info">Detalles de Persona</h1>
 
-    <dt class="col-sm-2">Apellido</dt>
-    <dd class="col-sm-10">@Model.Apellido</dd>
+<div class="card shadow p-4">
+    <dl class="row">
+        <dt class="col-sm-3">Nombre</dt>
+        <dd class="col-sm-9">@Model.Nombre</dd>
 
-    <dt class="col-sm-2">Genero</dt>
-    <dd class="col-sm-10">@Model.Genero</dd>
+        <dt class="col-sm-3">Apellido</dt>
+        <dd class="col-sm-9">@Model.Apellido</dd>
 
-    <dt class="col-sm-2">Edad</dt>
-    <dd class="col-sm-10">@Model.Edad</dd>
-</dl>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Cc" class="btn btn-primary">Edit</a>
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        <dt class="col-sm-3">Género</dt>
+        <dd class="col-sm-9">@Model.Genero</dd>
+
+        <dt class="col-sm-3">Edad</dt>
+        <dd class="col-sm-9">@Model.Edad</dd>
+    </dl>
+
+    <div class="d-flex justify-content-between mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Cc" class="btn btn-primary">Editar</a>
+        <a asp-action="Index" class="btn btn-secondary">Volver</a>
+    </div>
 </div>
