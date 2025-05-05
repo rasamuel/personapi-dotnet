@@ -16,9 +16,9 @@ Desarrollado por Juan Diego Perez, Juan Miguel Zuluaga y Samuel Ramirez Alvarez
 
 ```bash
 git clone https://github.com/rasamuel/personapi-dotnet.git
-Para acceder a la carpeta del proyecto
+//Para acceder a la carpeta del proyecto
 cd personapi_dotne
-Para acceder a la carpeta del codigo
+//Para acceder a la carpeta del codigo
 cd personapi_dotne
 ```
 
