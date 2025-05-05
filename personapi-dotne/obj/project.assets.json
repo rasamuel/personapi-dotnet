@@ -8260,9 +8260,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotne.csproj",
-      "projectName": "personapi-dotne",
-      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotne.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotnet.csproj",
+      "projectName": "personapi-dotnet",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotnet.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\obj\\",
       "projectStyle": "PackageReference",

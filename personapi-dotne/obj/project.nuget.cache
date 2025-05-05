@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t8rp5bqu7kM=",
+  "dgSpecHash": "izDp53jhq7o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotne.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\personapi-dotnet\\personapi-dotne\\personapi-dotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
